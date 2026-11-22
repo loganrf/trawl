@@ -1,0 +1,15 @@
+{
+  "source": "SalishSeaCast bathymetry_202411.nc (UBC EOAS, Apache-2.0)",
+  "nx": 301,
+  "ny": 543,
+  "cellM": 250.0,
+  "latMin": 47.02,
+  "latMax": 48.24,
+  "lonMin": -123.18,
+  "lonMax": -122.18,
+  "mPerDegLat": 111132.0,
+  "mPerDegLon": 75020.28914023386,
+  "valueScale": 0.1,
+  "landK": 0.02,
+  "rowOrder": "north-first"
+}

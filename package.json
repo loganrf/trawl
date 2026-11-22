@@ -1,0 +1,23 @@
+{
+  "name": "trawl",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Survey-vessel exploration game on a procedurally detailed Puget Sound, with a live side-scan sonar.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "build:single": "vite build --mode single",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "three": "^0.187.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.187.0",
+    "typescript": "^5.9.0",
+    "vite": "^8.3.8",
+    "vite-plugin-singlefile": "^2.3.4"
+  }
+}
